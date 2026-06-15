@@ -16,7 +16,7 @@ Uses 5-pass flow:
 * Uses principles.md (taken from PRs and common sense) 
 * Uses IDEA MCP to check inline errors (requires configuration)
 
-# Usage
+## Usage
 
 1. Copy CLAUDE.md into the project root
 2. copy files in .agent folder to the same folder in the project
