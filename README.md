@@ -6,7 +6,7 @@ Uses 5-pass flow:
 
 1. Planning and task justification (ful Youtrack task and/or scenario as an input) 
 2. Draft implementation and UI locators 
-3. Browser verification via playwright MCP and adjust according to actual behavior senn in browser 
+3. Browser verification via playwright MCP and adjust according to actual behavior seen in browser 
 4. Cleanup and hardening 
 5. Code Review: alignment to existing principles, reused patterns 
 
