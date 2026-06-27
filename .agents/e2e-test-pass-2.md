@@ -21,7 +21,7 @@ Do:
 - Review existing E2E style around the feature — start by reading the
   closest sibling test class.
 - Reuse existing methods, base classes, and helpers as much as possible
-  (see principles).
+  (see principles: `.agents/e2e-test-principles.md`).
 - Draft page-object / test changes in the working tree.
 - Add minimal FE `data-test` attributes only if needed for robust
   selectors (see decision rules below).
@@ -91,7 +91,6 @@ behavior (e.g., a success-toast copy that is part of the spec).
 
 ## Required Pass 2 output
 
-
 ### 1. Findings
 
 Briefly list relevant existing files / classes / methods discovered.
@@ -103,9 +102,9 @@ tests, and API clients.
 
 ### 3. Selector / `data-test` decision table
 
-| Element | Existing selector? | Decision | Reason |
-|---|:---:|---|---|
-| ... | yes / no | reuse / add `data-test` / defer | ... |
+| Element | Existing selector? | Decision                        | Reason |
+| ------- | :----------------: | ------------------------------- | ------ |
+| ...     |      yes / no      | reuse / add `data-test` / defer | ...    |
 
 ### 4. Assumptions needing browser verification
 

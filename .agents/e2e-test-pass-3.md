@@ -68,7 +68,7 @@ snippet or brief note showing what was observed.
 ### 3. Confirmed selector strategy
 
 A table or list mapping each PO field / method to its final selector,
-ready for Pass 4.
+ready for Pass 4 (Finalize & Review).
 
 ### 4. Updated implementation plan (only if needed)
 
@@ -83,5 +83,5 @@ such changes here with a brief rationale.
 ## Important
 
 Pass 3 is for verification, not implementation. If everything passes, the
-deliverable is just the report — no code changes — and Pass 4 picks up
-clean.
+deliverable is just the report — no code changes — and Pass 4 (Finalize &
+Review) picks up clean.

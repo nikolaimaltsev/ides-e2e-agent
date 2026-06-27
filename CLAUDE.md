@@ -28,12 +28,11 @@ adjacent fixes, refactors, or polish unless the user asks for them.
   **`.agents/e2e-test-principles.md`**
 - use Jetrains IDEA MCP tools if feels faster or more convenient or efficient than cli tools.
   You don't have to but feel free to use it if needed.
--
 
 ## Implementation approach
 
-- Use a **5-pass workflow**. Each pass has a clear purpose, set of rules, and
-concrete deliverable.
+- Use a **4-pass workflow**. Each pass has a clear purpose, set of rules, and
+  concrete deliverable.
 
 ### Pass 1 — High-level assessment + test design options
 
@@ -50,12 +49,7 @@ concrete deliverable.
 - Read and infer instruction for the pass: **[`.agents/e2e-test-pass-3.md`](e2e-test-pass-3.md)**
 - Confirm deliverables are complete and ask for confirmation before moving to the next pass.
 
-### Pass 4 — Final cleanup and hardening
+### Pass 4 — Finalize & Review
 
-- Read and infer instruction for the pass:  **[`.agents/e2e-test-pass-4.md`](e2e-test-pass-4.md)**
-- Confirm deliverables are complete and ask for confirmation before moving to the next pass.
-
-
-### Pass 5 — Code Review
-- Read and infer instruction for the pass:  **[`.agents/e2e-test-pass-5.md`](e2e-test-pass-5.md)**
-- Confirm deliverables and report results
+- Read and infer instruction for the pass: **[`.agents/e2e-test-pass-4.md`](e2e-test-pass-4.md)**
+- Confirm deliverables and report results.
