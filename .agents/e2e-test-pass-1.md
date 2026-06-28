@@ -16,6 +16,7 @@
 ## Required Pass 1 output
 
 - Assess scenario as doable/non-doable and if it makes sense or not or should be adjusted/omitted
+- Validate each step against real UI behavior/gating; if a step is unreachable as written, flag it and propose realigning the scenario (and the task text) to match real behavior
 - High-level design and implementation options
 - Spots in the code for the changes: helpers and test file: will you create new or fit into existing
 - Raised objections and concerns, well-argued suggestions to alter or omit some parts of the original task (if any).

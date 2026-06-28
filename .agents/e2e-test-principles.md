@@ -207,6 +207,16 @@ correctness or the reviewer's intent.
 
 ---
 
+## 9. Name page-object methods and `@Step`s by the action, not the caller's intent
+
+A shared method should describe what it does (`clickCreate`), not why one test
+calls it (`submitExpectingValidationError`). Keep test-specific expectations in
+the test, not in the method name.
+
+**Why:** the method stays reusable and the name doesn't mislead the next caller.
+
+---
+
 ## Quick checklist before opening a PR
 
 - [ ] No raw `[data-test*='...']` strings — used `elementByDataTest` / `ByDataTestValues` / `byDataTestContains` instead.
